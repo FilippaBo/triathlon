@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <title>Triathlon</title>
+  </head>
+  <!-- allt inom head är det bakomliggande detaljerna på sidan. det är de som gör alla bokstäver tillgänliga och länkar html till css, m.m -->
+
+<body class="body">
+
+<nav>
+  <a href="index.html" title="home" class="color" ><h2 class="home">Hem</h2> </a>
+  <a href="tri.html" title="vad är triatlon" class="color" > <h2>Vad är Triathlon </h2></a>
+  <a href="tavlingar.html" title="tävlingar" class="color"><h2>Tävlingar </h2></a>
+  <a href="ung.html" title="ungdomsverksamhet" class="color"><h2 class="ung">Ungdomsverksamhet </h2></a>
+</nav>
+<!--allt inom min nav tillhör menyraden. de är länkar mellan de ollika html sidorna, alla har oxå en gemmensam class "color" vilket jag senare använder i style. -->
+
+<div class="tricontainer">
+  <!-- det här är all info förutom nav. nav använder inte grid utan istllet flexbox. allt inom denna div är placerat i grid.css-->
+
+<header> </header>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img/cykel.jpg" alt="Skog" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img/bild.jpg" alt="Skog" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/img.jpg" alt="Skog" style="width:100%">
+    <div class="text">Caption Three </div>
+  </div>
+
+  <!--   Next and previous buttons
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+</div>
+<br>
+
+ <!--The dots/circles
+ <div style="text-align:center" >
+   <span class="dot" onclick="currentSlide(1)"></span>
+   <span class="dot" onclick="currentSlide(2)"></span>
+   <span class="dot" onclick="currentSlide(3)"></span>
+ </div>
+-->
+
+<h2 class="rubrik">Delmoment i Triathlon</h2>
+
+<div class="swimdiv"></div>
+
+  <h3 class="tisw"> Simningen</h3>
+  <br>
+  <img src="img/img.jpg" alt="cykel" class="swimimg">
+  <p class="swimtext"> Simningen äger för det mesta rum i öppet vatten, alltså i havet, en sjö eller annan naturlig vattensamling. Det förekommer triathlon med simning i bassäng, men problemet är att det inte finns plats för särskilt många simmare samtidigt. Valfritt simsätt tillåts (frisim), och crawl används av alla elitdeltagare och alla andra som kan crawl bra, precis som vid frisim i bassäng. Crawl är det snabbaste simsättet och det sparar dessutom benen bättre än bröstsim, vilket är en fördel i triathlon.</p>
+
+
+
+<div class="bikediv"></div>
+<h3 class="ticy"> Cyklingen</h3>
+<br>
+  <img src="img/img.jpg" alt="cykel" class="bikeimg">
+  <p class="biketext"> Cyklingen äger normalt rum på asfaltsvägar. Man har då snabba racercyklar. Vanligen tillåts inte drafting (att ligga nära bakom en annan cyklist). Man måste då hålla en lucka på vanligen minst 10 m. Anledningen till att drafting inte tillåts är av säkerhetsskäl. Men på världselitnivå och på vissa nationella lopp på upp till olympisk distans tillåts drafting och då liknar det mer vanliga cykellopp där taktik och samarbete spelar stor roll.  Man har dock inte samma samarbete som i cykelsporten, inga regelrätta hjälpryttare. Under lopp utan drafting är tempocykel tillåten medan man under draftinglopp måste ha en linjecykel, en lite båge är dock tillåten men den får inte sticka fram framför bromshandtagen.
+  </p>
+
+
+
+<div class="rundiv"></div>
+<h3 class="tiru"> Löpningen</h3>
+<br>
+  <img src="img/img.jpg" alt="cykel" class="runimg">
+  <p class="runtext"> Löpningen brukar äga rum på asfalt eller grus. Efter cyklingen är benen ansträngda så det går tyngre i början än på rena löptävlingar.
+</p>
+
+
+
+<div class="changediv"></div>
+<h3 class="tich"> Växlingar</h3>
+<br>
+<img src="img/img.jpg" alt="cykel" class="changeimg" >
+  <p class="changetext">
+    Vid växlingarna byter man utrustning för att det ska passa den nya grenen. Växlingarna brukar kallas T1 (Transition one; sim till cykel) och T2 (Transition two; cykel till löpning). Man får inte cykla i växlingsområdet utan man får springa med cykeln. Cykelhjälm måste vara på när man springer med cykeln. På korta lopp försöker man prioritera snabbhet vid växlingarna. Elitdeltagare har till exempel inte strumpor, för det tillåts inte i simning och tar tid att ta på sig.
+    <br><br>
+    Andra vanliga detaljer är till exempel att man sätter på cykelskor på pedalerna i förväg och stoppar i fötterna under pågående cykling. På långa lopp tar man mer tid på sig och försöker förbereda sig väl för respektive gren. Till exempel tar de flesta på sig strumpor, för att minska risken för skavsår. Man byter ofta kläder vilket inte görs på korta lopp.
+  </p>
+  <br>
+
+
+<!--</div>-->
+
+  </div>
+  <!--länk  till java fil-->
+<script type="text/javascript" src="js/script.js">
+</script>
+
+  </body>
+
+</html>
